@@ -1,0 +1,6 @@
+html, body { margin: 0; background: #101216; color: #e6e6e6; font: 14px/1.4 system-ui, sans-serif; }
+.ui { display: flex; gap: 14px; align-items: center; padding: 10px; position: sticky; top: 0; background: #101216; z-index: 2; }
+label { display: flex; gap: 6px; align-items: center; }
+canvas { display: block; width: 100vw; height: calc(100vh - 56px); image-rendering: pixelated; cursor: crosshair; }
+input[type="range"] { width: 160px; }
+button { padding: 6px 10px; }
